@@ -1,0 +1,68 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+//   @font-face {
+//     font-family: 'Ruhl';
+//     src: url('/fonts/FrankRuhlLibre-Regular.ttf');
+//   }
+  
+//   @font-face {
+//     font-family: 'Rhul Medium';
+//     src: url('/fonts/FrankRuhlLibre-Medium.ttf');
+//   }
+  
+//   @font-face {
+//     font-family: 'Vibes';
+//     src: url('/fonts/GreatVibes-Regular.ttf');
+//   }
+  
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Rhul';
+    animation: opening 1s ease-in-out;
+    //background-color: hsl(29, 30, 48);
+  }
+  
+  h1 {
+    font-size: $header1;
+    font-family: "vibes", sans-serif;
+  }
+  
+  li,
+  button,
+  label,
+  input,
+  p, a {
+    font-size: $text;
+    //font-family: 'Rhul'
+  }
+  
+  h2 {
+    font-size: $header2;
+    //font-family: 'Rhul';
+  }
+  
+  h3 {
+    font-size: $header3;
+  }
+  
+  h4,
+  h5 {
+    font-size: $header4;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: $gray-text;
+  }  
